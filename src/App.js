@@ -8,7 +8,7 @@ import TodoList from "./components/todos/TodoList";
 import CakeContainer from "./components/bakery/Bakery";
 import GithubDetails from "./components/githubPages/GHdetails";
 import ContactList from "./components/contacts/ContactList";
-import Login from "./components/loginRegister/Login";
+import Posts from "./components/posts/Posts";
 
 function App() {
 	return (
@@ -19,7 +19,7 @@ function App() {
 				<Route path="/bakery" component={CakeContainer} />
 				<Route path="/ghdetails" component={GithubDetails} />
 				<Route path="/contacts" component={ContactList} />
-				<Route path="/login" component={Login} />
+				<Route path="/posts" component={Posts}/>
 			</div>
 		</BrowserRouter>
 	);
